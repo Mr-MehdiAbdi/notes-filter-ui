@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample 1</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="filters">
+        <input type="text" id="searchInput" placeholder="Search note" />
+        <select id="statusFilter">
+          <option value="ALL">ALL</option>
+          <option value="COMPLETED">Completed</option>
+          <option value="UNCOMPLETED">Uncompleted</option>
+        </select>
+        <select id="sortFilter">
+          <option value="latest">Latest</option>
+          <option value="earliest">Earliest</option>
+        </select>
+      </div>
+      <ul id="notesList"></ul>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
