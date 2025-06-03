@@ -1,8 +1,8 @@
 const notes = [
-  { title: "Buy milk", completed: true, createdAt: "2024-12-01" },
-  { title: "Code project", completed: false, createdAt: "2025-01-15" },
-  { title: "Call mom", completed: true, createdAt: "2025-02-05" },
-  { title: "Do exercise", completed: false, createdAt: "2025-03-20" },
+  { title: "anjam task", completed: true, createdAt: "2025-12-01" },
+  { title: "post instagram", completed: false, createdAt: "2025-01-15" },
+  { title: "kharid laptop", completed: true, createdAt: "2024-02-05" },
+  { title: "raftan be bashgah", completed: false, createdAt: "2025-03-20" },
 ];
 
 function filterNotes(notes, searchText, status, sortBy) {
